@@ -1,0 +1,85 @@
+﻿<Window x:Class="cursova.History"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cursova"
+        mc:Ignorable="d"
+        Title="History" Height="450" Width="800">
+    <Grid Background="#FFFAD0BE">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Name="FilterColumn"/>
+            <ColumnDefinition x:Name="SecondColumn" Width="8*"/>
+            <ColumnDefinition x:Name="LastColumn" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="71*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="253*"/>
+            <RowDefinition Height="60*"/>
+        </Grid.RowDefinitions>
+        <Rectangle HorizontalAlignment="Left" Height="70" VerticalAlignment="Center" Width="820" Fill="#FFA1402F" Grid.ColumnSpan="3" Grid.Column="0"/>
+        <Label Content="Іcторія бронювань туриста" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Sitka Small Semibold" FontSize="24" Foreground="#FFF8DEA6" Height="37" Width="508" Grid.Column="1" HorizontalContentAlignment="Center"/>
+        <Label Content="Турист:" HorizontalAlignment="Left" Margin="45,0,0,0" Grid.Row="1" VerticalAlignment="Center" Foreground="#FF63291B" FontFamily="Sitka Display" FontSize="18" Grid.Column="1" Height="32" Width="67"/>
+        <Label Content="" x:Name="SelectedTourist" HorizontalAlignment="Left" Margin="110,0,0,0" Grid.Row="1" VerticalAlignment="Center" Foreground="#FF63291B" FontFamily="Sitka Display" FontSize="18" Grid.Column="1" Height="32" Width="300"/>
+        <DataGrid
+        x:Name="HistoryDataGrid"
+        AutoGenerateColumns="False"
+        HeadersVisibility="Column"
+        CanUserAddRows="False"
+        CanUserDeleteRows="False"
+        CanUserReorderColumns="True"
+        CanUserResizeColumns="True"
+        CanUserSortColumns="True"
+        Background="#FFEEAFA0"
+        Foreground="#FF3C3335"
+        FontFamily="Sitka Display Semibold"
+        FontSize="16"
+        RowBackground="#FFFFF5F1"
+        AlternatingRowBackground="#FFFFE4DE"
+        GridLinesVisibility="Horizontal"
+        BorderBrush="{x:Null}" Grid.Column="1" Margin="0,50,0,0" Grid.Row="1" Grid.RowSpan="2">
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Background" Value="#FFDD8C7A"/>
+                    <Setter Property="Foreground" Value="#FF3C3335"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="FontSize" Value="16"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+
+            <DataGrid.Resources>
+                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#FFCC5C52"/>
+                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" Color="#FF3C3335"/>
+            </DataGrid.Resources>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Тур" Binding="{Binding VoucherName}" Width="auto"/>
+                <DataGridTextColumn Header="Працівник" Binding="{Binding EmployeeFullName}"  Width="90"/>
+                <DataGridTextColumn Header="Дата" Binding="{Binding BookingDate, StringFormat=d}" Width="auto"/>
+                <DataGridTextColumn Header="К-сть" Binding="{Binding PeopleCount}"  Width="50" />
+                <DataGridTextColumn Header="Знижка" Binding="{Binding DiscountName}"  Width="auto"/>
+                <DataGridTextColumn Header="Початок" Binding="{Binding StartDate, StringFormat=d}" Width="auto"/>
+                <DataGridTextColumn Header="Кінець" Binding="{Binding EndDate, StringFormat=d}" Width="auto"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Style="{StaticResource darkbutton}"
+            Content="ОК" x:Name="closedbtn"
+            HorizontalAlignment="Left"
+            Grid.Row="3"
+            Width="109"
+            FontSize="18"
+            FontFamily="Sitka Display"
+            Background="#FF63291B"
+            Foreground="#FFFAD0BE" 
+            Grid.Column="1" 
+            Margin="541,16,0,16" 
+            Click="OKbtn_Click" Grid.ColumnSpan="2">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="Transparent"/>
+            </Button.BorderBrush>
+        </Button>
+
+    </Grid>
+</Window>

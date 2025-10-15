@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Pets\\TravelAgency\\cursova\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\booking.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:booking.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\edittourist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:edittourist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\touristpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:touristpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\touristpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:touristpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\vaucher_info.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:vaucher_info.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\autorization.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:autorization.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\autorization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:autorization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\booking.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:booking.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\vaucher_info.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:vaucher_info.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\edittourist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:edittourist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|d:\\pets\\travelagency\\cursova\\history.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23C69DF-D32B-4628-8FF3-77B8A3E5ED11}|cursova.csproj|solutionrelative:history.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 390,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookingPage.xaml.cs",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\BookingPage.xaml.cs",
+              "RelativeDocumentMoniker": "BookingPage.xaml.cs",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\BookingPage.xaml.cs",
+              "RelativeToolTip": "BookingPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:18:00.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAcwHgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:32:39.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Booking.xaml.cs",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\Booking.xaml.cs",
+              "RelativeDocumentMoniker": "Booking.xaml.cs",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\Booking.xaml.cs",
+              "RelativeToolTip": "Booking.xaml.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAASwGQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T21:42:07.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Booking.xaml",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\Booking.xaml",
+              "RelativeDocumentMoniker": "Booking.xaml",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\Booking.xaml",
+              "RelativeToolTip": "Booking.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T21:36:51.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "autorization.xaml",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\autorization.xaml",
+              "RelativeDocumentMoniker": "autorization.xaml",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\autorization.xaml",
+              "RelativeToolTip": "autorization.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T15:16:53.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "booking.cs",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\booking.cs",
+              "RelativeDocumentMoniker": "booking.cs",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\booking.cs",
+              "RelativeToolTip": "booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T22:28:17.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "vaucher_info.xaml.cs",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\vaucher_info.xaml.cs",
+              "RelativeDocumentMoniker": "vaucher_info.xaml.cs",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\vaucher_info.xaml.cs",
+              "RelativeToolTip": "vaucher_info.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:34:23.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "vaucher_info.xaml",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\vaucher_info.xaml",
+              "RelativeDocumentMoniker": "vaucher_info.xaml",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\vaucher_info.xaml",
+              "RelativeToolTip": "vaucher_info.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T16:49:39.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\AppSettings.cs",
+              "RelativeDocumentMoniker": "AppSettings.cs",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\AppSettings.cs",
+              "RelativeToolTip": "AppSettings.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAMwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T08:35:38.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T15:52:07.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CurrentUser.cs",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\CurrentUser.cs",
+              "RelativeDocumentMoniker": "CurrentUser.cs",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\CurrentUser.cs",
+              "RelativeToolTip": "CurrentUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:11:27.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "History.xaml.cs",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\History.xaml.cs",
+              "RelativeDocumentMoniker": "History.xaml.cs",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\History.xaml.cs",
+              "RelativeToolTip": "History.xaml.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAIAwwFMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:33:53.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-17T05:08:22.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edittourist.xaml",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\Edittourist.xaml",
+              "RelativeDocumentMoniker": "Edittourist.xaml",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\Edittourist.xaml",
+              "RelativeToolTip": "Edittourist.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-16T11:28:36.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TouristPage.xaml.cs",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\TouristPage.xaml.cs",
+              "RelativeDocumentMoniker": "TouristPage.xaml.cs",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\TouristPage.xaml.cs",
+              "RelativeToolTip": "TouristPage.xaml.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAIwG0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:45:56.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TouristPage.xaml",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\TouristPage.xaml",
+              "RelativeDocumentMoniker": "TouristPage.xaml",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\TouristPage.xaml",
+              "RelativeToolTip": "TouristPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T15:45:47.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "autorization.xaml.cs",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\autorization.xaml.cs",
+              "RelativeDocumentMoniker": "autorization.xaml.cs",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\autorization.xaml.cs",
+              "RelativeToolTip": "autorization.xaml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAYwDUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:16:58.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edittourist.xaml.cs",
+              "DocumentMoniker": "D:\\Pets\\TravelAgency\\cursova\\Edittourist.xaml.cs",
+              "RelativeDocumentMoniker": "Edittourist.xaml.cs",
+              "ToolTip": "D:\\Pets\\TravelAgency\\cursova\\Edittourist.xaml.cs",
+              "RelativeToolTip": "Edittourist.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:52:37.243Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

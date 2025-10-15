@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="autorization.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Booking.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BookingPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="History.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TouristPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="vaucher_info.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

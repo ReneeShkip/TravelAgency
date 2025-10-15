@@ -1,0 +1,84 @@
+﻿<Window x:Class="cursova.Turistedit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cursova"
+        mc:Ignorable="d" Icon="/resources/main.ico" 
+        Title="Туристи" Height="330" Width="570">
+    <Grid Background="#FFFAD0BE">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80*"/>
+            <ColumnDefinition Width="205*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="81*"/>
+            <RowDefinition Height="52*"/>
+            <RowDefinition Height="45*"/>
+            <RowDefinition Height="45*"/>
+            <RowDefinition Height="45*"/>
+            <RowDefinition Height="67*"/>
+        </Grid.RowDefinitions>
+        <Rectangle HorizontalAlignment="Left" Height="81" VerticalAlignment="Center" Width="570" Fill="#FFA1402F" Grid.ColumnSpan="2" Grid.Column="0"/>
+        <Label Content="Налаштування туристів" HorizontalAlignment="Left" Margin="120,0,0,0" VerticalAlignment="Center" FontFamily="Sitka Small Semibold" FontSize="24" Grid.ColumnSpan="2" Foreground="#FFF8DEA6" Height="38" Width="330"/>
+        <Label Style="{StaticResource InfoLabel}" Content="Ім'я: " HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Height="49" Width="150" Margin="10,0,0,0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Style="{StaticResource InfoLabel}" Content="Номер телефону: " HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Center" Width="140" Height="42" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="15,0,0,0"/>
+        <Label Style="{StaticResource InfoLabel}" Content="Пошта: " HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Center" Width="150" Margin="10,0,0,0" Height="43" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Style="{StaticResource InfoLabel}" Content="Дата народження: " HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Center" Width="150" Margin="10,0,0,0" Height="42" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="NameTextBox" Grid.Column="1" HorizontalAlignment="Left" Margin="36,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="308" Background="#FFFFE4DE" Height="29" FontFamily="Sitka Display" FontSize="18">
+            <TextBox.Foreground>
+                <SolidColorBrush Color="#FF63291B" Opacity="0.75"/>
+            </TextBox.Foreground>
+            <TextBox.BorderBrush>
+                <SolidColorBrush Color="Transparent"/>
+            </TextBox.BorderBrush>
+        </TextBox>
+        <TextBox x:Name="PhoneTextBox" Grid.Column="1" HorizontalAlignment="Left" Margin="36,0,0,0" Grid.Row="2" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="205" Background="#FFFFE4DE" Height="29" BorderBrush="Transparent" FontFamily="Sitka Display" FontSize="18">
+            <TextBox.Foreground>
+                <SolidColorBrush Color="#FF63291B" Opacity="0.75"/>
+            </TextBox.Foreground>
+        </TextBox>
+        <TextBox x:Name="EmailTextBox" Grid.Column="1" HorizontalAlignment="Left" Margin="36,0,0,0" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="254" Background="#FFFFE4DE" Height="29" BorderBrush="Transparent" FontFamily="Sitka Display" FontSize="18">
+            <TextBox.Foreground>
+                <SolidColorBrush Color="#FF63291B" Opacity="0.75"/>
+            </TextBox.Foreground>
+        </TextBox>
+        <Button Style="{StaticResource darkbutton}"
+            Grid.Column="1"
+                x:Name="okbtn"
+            Content="Ok"
+            HorizontalAlignment="Left"
+            Grid.Row="5"
+            VerticalAlignment="Top"
+            Width="92"
+            Height="26"
+            FontSize="18"
+            FontFamily="Sitka Display"
+            Background="#FF63291B"
+            Foreground="#FFFAD0BE"
+            Margin="272,24,0,0" Click="okbtn_Click">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FF707070" Opacity="0"/>
+            </Button.BorderBrush>
+        </Button>
+        <DatePicker x:Name="BirthdayDatePicker" SelectedDate="1950-01-01" Grid.Column="1" HorizontalAlignment="Left" Margin="40,0,0,0"
+     Grid.Row="4" VerticalAlignment="Center"
+     Foreground="#FF63291B" FontFamily="Sitka Display" FontSize="18"
+     Background="Transparent">
+            <DatePicker.Resources>
+                <Style TargetType="DatePickerTextBox">
+                    <Setter Property="Background" Value="#FFFFE4DE"/>
+                    <Setter Property="BorderThickness" Value="0"/>
+                    <Setter Property="Foreground" Value="#FF63291B"/>
+                    <Setter Property="Text" Value=" "/>
+                </Style>
+            </DatePicker.Resources>
+            <DatePicker.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,0" StartPoint="0.5,1">
+                    <GradientStop Offset="1"/>
+                    <GradientStop/>
+                </LinearGradientBrush>
+            </DatePicker.BorderBrush>
+        </DatePicker>
+    </Grid>
+</Window>
